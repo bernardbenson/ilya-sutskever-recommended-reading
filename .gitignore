@@ -1,0 +1,11 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# uv / virtualenv
+.venv/
+venv/
+
+# notes/scratch produced while doing the exercises
+**/notes.md
