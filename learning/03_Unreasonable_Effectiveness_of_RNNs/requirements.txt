@@ -1,0 +1,7 @@
+# Tier 1 (min_char_rnn.py) needs only NumPy.
+# Tier 2-3 (char_rnn.py) adds PyTorch.
+# This repo is a `uv` project that already provides both — just use `uv run`.
+# The pins below are for reproducing outside this repo.
+
+numpy>=1.21
+torch>=2.0
